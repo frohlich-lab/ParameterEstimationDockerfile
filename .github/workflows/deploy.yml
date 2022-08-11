@@ -26,7 +26,7 @@ jobs:
           images: fabfroehlich/generic_parameter_estimation
       
       - name: Build and push Docker image
-        uses: docker/build-push-action@latest
+        uses: docker/build-push-action@v3
         with:
           context: .
           push: true
