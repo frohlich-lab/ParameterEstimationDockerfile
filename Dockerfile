@@ -6,3 +6,7 @@ LABEL description="Parameter Estimation Pipeline"
 COPY requirements.txt /tmp
 
 RUN pip3 install -r /tmp/requirements.txt
+
+RUN wget -q -O /tmp/bionetgen.tar.gz https://github.com/RuleWorld/bionetgen/releases/download/BioNetGen-2.8.4/BioNetGen-2.8.4-linux.tgz
+
+RUN export BNGPATH=/tmp/BioNetGen-2.8.4
