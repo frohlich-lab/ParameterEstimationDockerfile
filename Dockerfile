@@ -11,7 +11,7 @@ RUN pip3 install -r /tmp/requirements.txt
 
 RUN apt-get install wget -y
 
-RUN wget -q -O /tmp/bionetgen.tar.gz https://github.com/RuleWorld/bionetgen/releases/download/BioNetGen-2.8.4/BioNetGen-2.8.4-linux.tgz
+RUN wget -q -O /tmp/bionetgen.tar.gz https://github.com/RuleWorld/bionetgen/releases/download/BioNetGen-2.8.4/BioNetGen-2.8.4-linux.tar.gz
 
 RUN mkdir /usr/local/share/
 
