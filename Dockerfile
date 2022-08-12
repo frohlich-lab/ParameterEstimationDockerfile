@@ -13,4 +13,6 @@ RUN apt-get install wget tar -y
 
 RUN wget -q -O /tmp/bionetgen.tar.gz https://github.com/RuleWorld/bionetgen/releases/download/BioNetGen-2.8.4/BioNetGen-2.8.4-linux.tar.gz
 
-RUN tar xf /tmp/bionetgen.tar.gz -C /usr/local/share/
+RUN mkdir /usr/local/share/BioNetGen
+
+RUN tar xf /tmp/bionetgen.tar.gz -C /usr/local/share/BioNetGen --strip-components=1
