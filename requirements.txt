@@ -14,3 +14,4 @@ pypesto==0.2.13
 scikit-learn==1.1.2
 synapseclient==2.6.0
 plotnine==0.9.0
+pymc==4.1.4
