@@ -1,6 +1,10 @@
 FROM dweindl/amici:latest
 LABEL description="Parameter Estimation Pipeline"
 
+# Install graphviz
+
+RUN apt-get install graphviz tar -y
+
 # Setup the Python environment.
 
 COPY requirements.txt /tmp
