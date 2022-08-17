@@ -3,7 +3,7 @@ LABEL description="Parameter Estimation Pipeline"
 
 # Install graphviz
 
-RUN apt-get install graphviz tar -y
+RUN apt-get install graphviz -y
 
 # Setup the Python environment.
 
