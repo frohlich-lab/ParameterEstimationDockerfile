@@ -3,7 +3,7 @@ LABEL description="Parameter Estimation Pipeline"
 
 # Install graphviz
 
-RUN apt-get install software-properties-common && apt-get update
+RUN apt-get install software-properties-common -y && apt-get update
 
 RUN add-apt-repository universe && apt-get update
 
