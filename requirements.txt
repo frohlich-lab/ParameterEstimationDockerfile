@@ -17,5 +17,5 @@ plotnine==0.10.1
 pymc==4.3.0
 pydot==1.4.2
 notebook==6.5.2
-jax==0.3.24
+jax[cpu]==0.3.24
 diffrax==0.2.1
