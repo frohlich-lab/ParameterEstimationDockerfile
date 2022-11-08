@@ -3,7 +3,7 @@ scipy==1.9.3
 pandas==1.5.1
 matplotlib==3.6.2
 seaborn==0.12.1
-aesara==2.8.8
+aesara==2.8.7
 pysb==1.14.0
 amici==0.13.0
 petab==0.1.30
