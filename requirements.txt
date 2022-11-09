@@ -19,3 +19,4 @@ pydot==1.4.2
 notebook==6.5.2
 jax[cpu]==0.3.24
 diffrax==0.2.1
+equinox==0.9.0
