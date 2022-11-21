@@ -1,4 +1,4 @@
-FROM dweindl/amici:latest
+FROM dweindl/amici:develop
 LABEL description="Parameter Estimation Pipeline"
 
 # Install graphviz
