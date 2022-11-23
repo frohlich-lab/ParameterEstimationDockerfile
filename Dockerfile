@@ -8,7 +8,8 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN chmod 1777 /tmp
 
-RUN apt-get clean && apt-get update && apt-get install graphviz -y 
+RUN export DEBIAN_FRONTEND=noninteractive
+RUN apt-get clean && apt-get update -y && apt-get upgrade -y && apt-get install graphviz -y 
 
 # Setup the Python environment.
 
