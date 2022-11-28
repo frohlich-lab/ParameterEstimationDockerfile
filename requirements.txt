@@ -5,7 +5,7 @@ matplotlib==3.6.2
 seaborn==0.12.1
 aesara==2.8.7
 pysb==1.14.0
-amici==0.13.0
+amici==0.14.0
 petab==0.1.30
 sympy==1.11.1
 snakemake==7.18.1
