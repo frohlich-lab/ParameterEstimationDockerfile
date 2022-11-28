@@ -1,4 +1,6 @@
-FROM dweindl/amici:latest
+# TODO: revert to latest as soon as multiarch docker is released
+
+FROM dweindl/amici:multiarch_docker
 LABEL description="Parameter Estimation Pipeline"
 
 # Install graphviz
@@ -9,7 +11,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN chmod 1777 /tmp
 
 RUN export DEBIAN_FRONTEND=noninteractive
-RUN apt-get clean && apt-get update -y && apt-get upgrade -y && apt-get install graphviz -y 
+RUN apt-get clean && apt-get update -y && apt-get install graphviz -y 
 
 # Setup the Python environment.
 
