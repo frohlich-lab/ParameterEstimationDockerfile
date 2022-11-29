@@ -5,7 +5,6 @@ matplotlib==3.6.2
 seaborn==0.12.1
 aesara==2.8.7
 pysb==1.14.0
-amici==0.14.0
 petab==0.1.30
 sympy==1.11.1
 snakemake==7.18.1
@@ -17,7 +16,6 @@ plotnine==0.10.1
 pymc==4.3.0
 pydot==1.4.2
 notebook==6.5.2
-jax[cpu]==0.3.24
 diffrax==0.2.1
 equinox==0.9.0
 optax==0.1.3
