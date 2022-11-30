@@ -13,6 +13,14 @@ RUN chmod 1777 /tmp
 RUN export DEBIAN_FRONTEND=noninteractive
 RUN apt-get clean && apt-get update -y && apt-get install graphviz wget tar -y 
 
+# Install bazel(isk) (required for building jax)
+
+RUN mkdir /tmp/bazel && \
+    cd /tmp/bazel && \
+    wget https://github.com/bazelbuild/bazelisk/releases/download/v1.15.0/bazelisk-linux-$(dpkg --print-architecture) && \
+    chmod +x bazelisk-linux-$(dpkg --print-architecture) && \
+    mv bazelisk-linux-$(dpkg --print-architecture) /usr/local/bin/bazel
+
 # Install jax from source (no aarch64 wheels)
 
 RUN wget -q -O /tmp/jax.tar.gz https://github.com/google/jax/archive/refs/tags/jaxlib-v0.3.25.tar.gz 
