@@ -19,3 +19,4 @@ equinox==0.10.4
 optax==0.1.5
 jax==0.4.10
 jaxlib==0.4.10
+wandb==0.15.3
