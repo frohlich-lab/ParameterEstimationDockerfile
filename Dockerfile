@@ -1,6 +1,6 @@
 # TODO: revert to latest as soon as multiarch docker is released
 
-FROM dweindl/amici:multiarch_docker
+FROM dweindl/amici:release_0.18.0
 LABEL description="Parameter Estimation Pipeline"
 
 # Install graphviz
