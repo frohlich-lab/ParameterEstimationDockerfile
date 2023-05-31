@@ -1,6 +1,5 @@
-# TODO: revert to latest as soon as multiarch docker is released
+FROM dnvidia/cuda:12.1.1-base-ubuntu22.04
 
-FROM dweindl/amici:release_0.18.0
 LABEL description="Parameter Estimation Pipeline"
 
 # Install graphviz
@@ -10,6 +9,21 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone &
     chmod 1777 /tmp && \
     export DEBIAN_FRONTEND=noninteractive && \
     apt-get clean && apt-get update -y && apt-get install graphviz wget tar -y 
+
+# Setup AMICI
+
+RUN apt-get update && apt-get install -y \
+    g++ \
+    libatlas-base-dev \
+    libboost-serialization-dev \
+    libboost-chrono-dev \
+    libhdf5-serial-dev \
+    python-is-python3 \
+    python3 \
+    python3-dev \
+    python3-pip \
+    python3-venv \
+    swig
 
 # Setup the Python environment.
 
