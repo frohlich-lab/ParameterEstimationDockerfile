@@ -24,7 +24,8 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     python3-venv \
     swig \
-    cmake
+    cmake && \
+    pip3 install ninja
 
 # Setup the Python environment.
 
