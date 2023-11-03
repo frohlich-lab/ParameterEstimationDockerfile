@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
     swig \
     cmake \
     git && \
-    pip3 install ninja
+    pip3 install ninja numpy
 
 # Setup the Python environment.
 
