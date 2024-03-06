@@ -23,3 +23,4 @@ amici==0.20.0
 sdist
 wandb==0.16.4
 fire==0.5.0
+flax==0.8.1
