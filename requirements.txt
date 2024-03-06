@@ -21,5 +21,5 @@ jaxopt==0.8.2
 jax==0.4.20
 amici==0.20.0
 sdist
-wandb==0.15.12
+wandb==0.16.4
 fire==0.5.0
