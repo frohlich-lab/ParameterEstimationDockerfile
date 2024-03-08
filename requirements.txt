@@ -19,8 +19,9 @@ equinox==0.11.2
 optax==0.1.7
 jaxopt==0.8.2
 jax==0.4.20
-amici==0.20.0
-sdist
+amici==0.23.0
 wandb==0.16.4
 fire==0.5.0
 flax==0.8.1
+lineax==0.0.4
+optimistix==0.0.6
