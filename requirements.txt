@@ -27,3 +27,9 @@ flax==0.8.1
 lineax==0.0.4
 optimistix==0.0.6
 torch==2.2.1
+msgpack==1.0.8
+orbax-checkpoint==0.5.3
+PyYAML==6.0.1
+rich==13.7.1
+tensorstore==0.1.54
+typing_extensions==4.8.0
