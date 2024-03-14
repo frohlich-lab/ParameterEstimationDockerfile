@@ -32,7 +32,7 @@ RUN apt-get update && apt-get install -y \
 
 COPY requirements.txt /tmp
 
-RUN pip3 install -r /tmp/requirements.txt && \
+RUN pip3 install --no-cache-dir -r /tmp/requirements.txt && \
     wget -q -O /tmp/bionetgen.tar.gz https://github.com/RuleWorld/bionetgen/releases/download/BioNetGen-2.8.5/BioNetGen-2.8.5-linux.tar.gz && \
     mkdir /usr/local/share/BioNetGen && \
     tar xf /tmp/bionetgen.tar.gz -C /usr/local/share/BioNetGen --strip-components=1
