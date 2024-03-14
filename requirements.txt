@@ -26,6 +26,7 @@ fire==0.5.0
 flax==0.8.1
 lineax==0.0.4
 optimistix==0.0.6
+--find-links https://download.pytorch.org/whl/torch_stable.html
 torch==2.2.1+cpu
 msgpack==1.0.8
 orbax-checkpoint==0.5.3
