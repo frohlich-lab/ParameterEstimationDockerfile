@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.1.1-base-ubuntu22.04
+FROM python:3.10-alpine
 
 LABEL description="Parameter Estimation Pipeline"
 
