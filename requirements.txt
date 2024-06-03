@@ -10,7 +10,7 @@ snakemake==7.32.4
 fides==0.7.7
 pypesto==0.5.2
 scikit-learn==1.3.2
-synapseclient==4.1.1
+synapseclient==4.2.0
 plotnine==0.12.3
 pydot==1.4.2
 notebook==7.0.6
