@@ -28,6 +28,7 @@ lineax==0.0.4
 optimistix==0.0.6
 msgpack==1.0.8
 orbax-checkpoint==0.5.3
+plotly==5.23.0
 PyYAML==6.0.1
 rich==13.7.1
 tensorstore==0.1.54
