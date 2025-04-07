@@ -20,9 +20,9 @@ optax==0.2.4
 jaxopt==0.8.3
 jax==0.5.2
 jaxlib==0.5.1
-amici==0.26.1
+amici==0.31.1
 wandb==0.18.1
-fire==0.5.0
+fire==0.7.0
 flax==0.10.4
 lineax==0.0.8
 optimistix==0.0.10
