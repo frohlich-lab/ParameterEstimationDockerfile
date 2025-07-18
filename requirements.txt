@@ -35,3 +35,4 @@ tensorstore==0.1.54
 typing_extensions==4.8.0
 biopython==1.85
 gseapy==1.1.9
+lxml==6.0.0
