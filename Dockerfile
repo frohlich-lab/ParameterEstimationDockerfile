@@ -37,5 +37,5 @@ RUN pip3 install --no-cache-dir -r /tmp/requirements.txt && \
     mkdir /usr/local/share/BioNetGen && \
     tar xf /tmp/bionetgen.tar.gz -C /usr/local/share/BioNetGen --strip-components=1
 
-RUN git config --global --add safe.directory '*'
+RUN git config --system --add safe.directory '*'
 
